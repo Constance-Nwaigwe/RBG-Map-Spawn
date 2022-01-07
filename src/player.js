@@ -5,3 +5,8 @@ class Player{
         this.attacks = attacks
     }
 }
+
+const play = new Player("Cleo", 100, "Catch");
+console.log(play);
+
+exports.module = {Player};

@@ -5,3 +5,6 @@ class Monster{
         this.attacks = attacks
     }
 }
+const mon = new Monster("Werewolf", 100, "throw");
+console.log(mon);
+exports.module = {Monster};
